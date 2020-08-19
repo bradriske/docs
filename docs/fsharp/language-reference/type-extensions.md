@@ -128,7 +128,6 @@ Extension methods are useful for when you wish to define extensions on a generic
 ```fsharp
 namespace Extensions
 
-open System.Collections.Generic
 open System.Runtime.CompilerServices
 
 [<Extension>]

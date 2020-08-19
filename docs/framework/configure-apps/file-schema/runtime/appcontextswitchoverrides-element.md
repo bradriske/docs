@@ -1,5 +1,6 @@
 ---
 title: "AppContextSwitchOverrides Element"
+ms.custom: "updateeachrelease"
 ms.date: "04/18/2019"
 helpviewer_keywords:
   - "AppContextSwitchOverrides"
