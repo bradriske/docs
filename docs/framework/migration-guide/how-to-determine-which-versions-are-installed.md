@@ -5,6 +5,7 @@ ms.date: "02/03/2020"
 dev_langs:
   - "csharp"
   - "vb"
+ms.custom: "updateeachrelease"
 helpviewer_keywords:
   - "versions, determining for .NET Framework"
   - ".NET Framework, determining version"

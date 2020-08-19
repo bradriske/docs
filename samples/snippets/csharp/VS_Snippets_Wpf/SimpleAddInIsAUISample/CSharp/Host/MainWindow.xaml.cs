@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.ObjectModel;
+using System.AddIn.Contract;
 using System.AddIn.Hosting;
 using System.Windows;
 

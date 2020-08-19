@@ -189,6 +189,7 @@ app.UseHealthChecks("/hc", new HealthCheckOptions()
     Predicate = _ => true,
     ResponseWriter = UIResponseWriter.WriteHealthCheckUIResponse
 });
+}
 ```
 
 ### Query your microservices to report about their health status
@@ -213,7 +214,7 @@ Fortunately, [AspNetCore.Diagnostics.HealthChecks](https://github.com/Xabaril/As
 
 **Figure 8-9**. Sample health check report in eShopOnContainers
 
-In summary, this watchdog service queries each microservice's "/hc" endpoint. This will execute all the health checks defined within it and return an overall health state depending on all those checks. The HealthChecksUI is easy to consume with a few configuration entries and two lines of code that needs to be added into the *Startup.cs* of the watchdog service.
+In summary, this watchdog service queries each microservice's "/hc" endpoint. This will execute all the health checks defined within it and return an overall health state depending on all those checks. The HealthChecksUI is easy to consume with a few configuration entries and two lines of code that needs to be added into the Startup.cs of the watchdog service.
 
 Sample configuration file for health check UI:
 
@@ -235,7 +236,7 @@ Sample configuration file for health check UI:
 }
 ```
 
-*Startup.cs* file that adds HealthChecksUI:
+Startup.cs file that adds HealthChecksUI:
 
 ```csharp
 // Startup.cs from WebStatus(Watch Dog) service
@@ -250,7 +251,7 @@ public void ConfigureServices(IServiceCollection services)
 public void Configure(IApplicationBuilder app, IHostingEnvironment env)
 {
     //…
-    app.UseHealthChecksUI(config => config.UIPath = "/hc-ui");
+    app.UseHealthChecksUI(config=> config.UIPath = "/hc-ui");
     //…
 }
 ```
