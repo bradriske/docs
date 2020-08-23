@@ -118,7 +118,7 @@ class DroppingServerElement : InterceptingElement
   
  You should see the following client output after running the service and then the client.  
   
-```console  
+```output  
 Reporting the next 10 wind speed  
 100 kph  
 Server dropped a message.  
@@ -142,7 +142,7 @@ Press ENTER to shut down client
   
  On the service, you should see the following output:  
   
-```console  
+```output  
 Press ENTER to exit.  
 Dangerous wind detected! Reported speed (90) is greater than 64 kph.  
 Dangerous wind detected! Reported speed (70) is greater than 64 kph.  

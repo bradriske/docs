@@ -72,7 +72,7 @@ To load images into Model Builder, provide the path to a single top-level direct
 
 In the folder structure illustrated below, the top-level directory is *flower_photos*. There are five subdirectories corresponding to the categories you want to predict: daisy, dandelion, roses, sunflowers, and tulips. Each of these subdirectories contains images belonging to its respective category.
 
-```text
+```
 \---flower_photos
     +---daisy
     |       100080576_f52e8ee070_n.jpg

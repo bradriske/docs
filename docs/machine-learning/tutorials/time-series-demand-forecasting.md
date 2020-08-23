@@ -252,7 +252,7 @@ If you're satisfied with your model, save it for later use in other applications
 
 1. Run the application. Output similar to that below should appear on the console. For brevity, the output has been condensed.
 
-    ```text
+    ```output
     Evaluation Metrics
     ---------------------
     Mean Absolute Error: 726.416

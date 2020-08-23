@@ -153,7 +153,7 @@ Console.WriteLine($"[{DateTime.Now,-20:d}] Hour [{DateTime.Now,-10:HH}] [{1063.3
 
 The output looks something like the following:
 
-```console
+```output
 [04/14/2018          ] Hour [16        ] [       1,063.34] feet
 ```
 

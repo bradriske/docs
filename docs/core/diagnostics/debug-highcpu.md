@@ -52,7 +52,7 @@ dotnet-counters monitor --refresh-interval 1 -p 22884
 
 The `refresh-interval` is the number of seconds between the counter polling CPU values. The output should be similar to the following:
 
-```console
+```ouput
 Press p to pause, r to resume, q to quit.
     Status: Running
 
@@ -90,7 +90,7 @@ dotnet-counters monitor System.Runtime[cpu-usage] -p 22884 --refresh-interval 1
 
 You should see an increase in CPU usage as shown below:
 
-```console
+```output
 Press p to pause, r to resume, q to quit.
     Status: Running
 

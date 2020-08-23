@@ -346,7 +346,7 @@ Because `SentimentPrediction` is inherited from `SentimentData`, the `Transform(
 
 Your results should be similar to the following. During processing, messages are displayed. You may see warnings, or processing messages. These have been removed from the following results for clarity.
 
-```console
+```output
 Model quality metrics evaluation
 --------------------------------
 Accuracy: 83.96%

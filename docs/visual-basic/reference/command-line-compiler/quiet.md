@@ -36,7 +36,7 @@ End Module
 
 Output:
 
-```console
+```output
 C:\projects\vb2.vb(3) : error BC30451: 'x' is not declared. It may be inaccessible due to its protection level.
 
         x()
@@ -45,7 +45,7 @@ C:\projects\vb2.vb(3) : error BC30451: 'x' is not declared. It may be inaccessib
 
 Compiled with `-quiet`, the compiler outputs only the following:
 
-```console
+```output
 E:\test\t2.vb(3) : error BC30451: Name 'x' is not declared.
 ```
 

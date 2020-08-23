@@ -101,13 +101,13 @@ peverify myAssembly.exe /break=100 /ignore@ignoreErrors.rsp
   
  The response file can contain a comma-separated list of error codes.  
   
-```text
+```
 0x12345678, 0xABCD1234  
 ```  
   
  Alternatively, the response file can be formatted with one error code per line.  
   
-```text
+```
 0x12345678  
 0xABCD1234  
 ```  

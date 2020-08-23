@@ -23,7 +23,7 @@ dotnet new sln -o FSNetCore
 
 The following directory structure is produced after running the previous command:
 
-```console
+```
 FSNetCore
     ├── FSNetCore.sln
 ```
@@ -40,7 +40,7 @@ dotnet new classlib -lang "F#" -o src/Library
 
 The following directory structure is produced after running the previous command:
 
-```console
+```
 └── FSNetCore
     ├── FSNetCore.sln
     └── src
@@ -84,7 +84,7 @@ dotnet new console -lang "F#" -o src/App
 
 The following directory structure is produced after running the previous command:
 
-```console
+```
 └── FSNetCore
     ├── FSNetCore.sln
     └── src
@@ -136,7 +136,7 @@ dotnet run Hello World
 
 You should see the following results:
 
-```console
+```output
 Nice command-line arguments! Here's what JSON.NET has to say about them:
 
 I used to be Hello but now I'm ""Hello"" thanks to JSON.NET!

@@ -216,7 +216,7 @@ The `DetectSpike()` method:
 
 Your results should be similar to the following. During processing, messages are displayed. You may see warnings, or processing messages. Some of the messages have been removed from the following results for clarity.
 
-```console
+```output
 Detect temporary changes in pattern
 =============== Training the model ===============
 =============== End of training process ===============
@@ -321,7 +321,7 @@ The `DetectChangepoint()` method executes the following tasks:
 
 Your results should be similar to the following. During processing, messages are displayed. You may see warnings, or processing messages. Some messages have been removed from the following results for clarity.
 
-```console
+```output
 Detect Persistent changes in pattern
 =============== Training the model Using Change Point Detection Algorithm===============
 =============== End of training process ===============

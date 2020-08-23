@@ -62,7 +62,7 @@ The **keyref** element allows you to establish links between elements within a d
   
  The XML Schema definition language (XSD) schema mapping process produces the following **DataSet** with two tables:  
   
-```text  
+```  
 OrderDetail(OrderNo, ItemNo) and  
 Order(OrderNumber, EmpNumber)  
 ```  
@@ -71,7 +71,7 @@ Order(OrderNumber, EmpNumber)
   
 - A unique constraint on the **Order** table.  
   
-    ```text
+    ```
               Table: Order  
     Columns: OrderNumber
     ConstraintName: OrderNumberKey  
@@ -81,7 +81,7 @@ Order(OrderNumber, EmpNumber)
   
 - A relationship between the **Order** and **OrderDetail** tables. The **Nested** property is set to **False** because the two elements are not nested in the schema.  
   
-    ```text
+    ```
               ParentTable: Order  
     ParentColumns: OrderNumber
     ChildTable: OrderDetail  
@@ -94,7 +94,7 @@ Order(OrderNumber, EmpNumber)
   
 - A foreign key constraint on the **OrderDetail** table.  
   
-    ```text  
+    ```  
               ConstraintName: OrderNoRef  
     Type: ForeignKeyConstraint  
     Table: OrderDetail  

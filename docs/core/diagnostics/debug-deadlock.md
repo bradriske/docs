@@ -122,7 +122,7 @@ clrstack -all
 
 A representative portion of the output looks like:
 
-```console
+```output
   ...
   ...
   ...
@@ -203,7 +203,7 @@ OS Thread Id: 0x1dc88
 
 Observing the callstacks for all 300+ threads shows a pattern where a majority of the threads share a common callstack:
 
-```console
+```output
 OS Thread Id: 0x1dc88
         Child SP               IP Call Site
 00007F2ADFFAE680 00007f305abc6360 [GCFrame: 00007f2adffae680]

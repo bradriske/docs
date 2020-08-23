@@ -90,7 +90,7 @@ The function `RemoveAllMultiples` is a recursive function that takes two lists. 
 
 The output is as follows:
 
-```console
+```output
 Primes Up To 100:
 [2; 3; 5; 7; 11; 13; 17; 19; 23; 29; 31; 37; 41; 43; 47; 53; 59; 61; 67; 71; 73; 79; 83; 89; 97]
 ```
@@ -111,7 +111,7 @@ The following code demonstrates the use of `List.exists`.
 
 The output is as follows:
 
-```console
+```output
 For list [0; 1; 2; 3], contains zero is true
 ```
 
@@ -121,7 +121,7 @@ The following example demonstrates the use of `List.exists2`.
 
 The output is as follows:
 
-```console
+```output
 Lists [1; 2; 3; 4; 5] and [5; 4; 3; 2; 1] have at least one equal element at the same position.
 ```
 
@@ -131,7 +131,7 @@ You can use [List.forall](https://fsharp.github.io/fsharp-core-docs/reference/fs
 
 The output is as follows:
 
-```console
+```output
 true
 false
 ```
@@ -142,7 +142,7 @@ Similarly, [List.forall2](https://fsharp.github.io/fsharp-core-docs/reference/fs
 
 The output is as follows:
 
-```console
+```output
 true
 false
 ```
@@ -159,7 +159,7 @@ The following example demonstrates the use of `List.sort`.
 
 The output is as follows:
 
-```console
+```output
 [-2; 1; 4; 5; 8]
 ```
 
@@ -169,7 +169,7 @@ The following example demonstrates the use of `List.sortBy`.
 
 The output is as follows:
 
-```console
+```output
 [1; -2; 4; 5; 8]
 ```
 
@@ -179,7 +179,7 @@ The next example demonstrates the use of `List.sortWith`. In this example, the c
 
 The output is as follows:
 
-```console
+```output
 [{ID = 92;
 Rev = 1;}; {ID = 92;
 Rev = 1;}; {ID = 100;
@@ -204,7 +204,7 @@ If the elements must be transformed first, call [List.pick](https://fsharp.githu
 
 The output is as follows:
 
-```console
+```output
 "b"
 ```
 
@@ -214,7 +214,7 @@ Another group of search operations, [List.tryFind](https://fsharp.github.io/fsha
 
 The output is as follows:
 
-```console
+```output
 The first even value is 22.
 The first even value is at position 8.
 ```
@@ -243,7 +243,7 @@ Lists that contain tuples can be manipulated by zip and unzip functions. These f
 
 The output is as follows:
 
-```console
+```output
 [(1, -1); (2, -2); (3; -3)]
 ```
 
@@ -253,7 +253,7 @@ The following code example demonstrates the use of `List.zip3`.
 
 The output is as follows:
 
-```console
+```output
 [(1, -1, 0); (2, -2, 0); (3, -3, 0)]
 ```
 
@@ -265,7 +265,7 @@ The following code example demonstrates the use of [List.unzip](https://msdn.mic
 
 The output is as follows:
 
-```console
+```output
 ([1; 3], [2; 4])
 [1; 3] [2; 4]
 ```
@@ -276,7 +276,7 @@ The following code example demonstrates the use of [List.unzip3](https://msdn.mi
 
 The output is as follows:
 
-```console
+```output
 ([1; 4], [2; 5], [3; 6])
 ```
 
@@ -288,7 +288,7 @@ F# supports a variety of operations on list elements. The simplest is [List.iter
 
 The output is as follows:
 
-```console
+```output
 List.iter: element is 1
 List.iter: element is 2
 List.iter: element is 3
@@ -309,7 +309,7 @@ Another frequently used function that transforms list elements is [List.map](htt
 
 The output is as follows:
 
-```console
+```output
 [2; 3; 4]
 ```
 
@@ -319,7 +319,7 @@ The following example shows the use of `List.map2`.
 
 The output is as follows:
 
-```console
+```output
 [5; 7; 9]
 ```
 
@@ -329,7 +329,7 @@ The following example shows the use of `List.map3`.
 
 The output is as follows:
 
-```console
+```output
 [7; 10; 13]
 ```
 
@@ -339,7 +339,7 @@ The following example shows the use of `List.mapi`.
 
 The output is as follows:
 
-```console
+```output
 [1; 3; 5]
 ```
 
@@ -349,7 +349,7 @@ The following example shows the use of `List.mapi2`.
 
 The output is as follows:
 
-```console
+```output
 [0; 7; 18]
 ```
 
@@ -359,7 +359,7 @@ The output is as follows:
 
 The output is as follows:
 
-```console
+```output
 [1; 2; 3; 2; 4; 6; 3; 6; 9]
 ```
 
@@ -377,7 +377,7 @@ The following code demonstrates the use of `List.choose` to select capitalized w
 
 The output is as follows:
 
-```console
+```output
 ["Rome's"; "Bob's"]
 ```
 

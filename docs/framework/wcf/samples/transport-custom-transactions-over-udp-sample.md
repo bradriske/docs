@@ -176,7 +176,7 @@ if (transaction != null)
   
 3. This produces the following output.  
   
-    ```console  
+    ```output  
     Testing Udp From Code.  
     Service is started from code...  
     Press <ENTER> to terminate the service and start service from config...  
@@ -184,7 +184,7 @@ if (transaction != null)
   
 4. At this time, you can start the client by running UdpTestClient.exe. The output produced by the client is as follows.  
   
-    ```console
+    ```output
     0  
     3  
     6  
@@ -195,7 +195,7 @@ if (transaction != null)
   
 5. The service output is as follows.  
   
-    ```console
+    ```output
     Hello, world!  
     Hello, world!  
     Hello, world!  
@@ -217,7 +217,7 @@ if (transaction != null)
   
 7. To run the client application against endpoints published using configuration, press ENTER on the service application window and then run the test client again. You should see the following output on the service.  
   
-    ```console  
+    ```output  
     Testing Udp From Config.  
     Service is started from config...  
     Press <ENTER> to terminate the service and exit...  

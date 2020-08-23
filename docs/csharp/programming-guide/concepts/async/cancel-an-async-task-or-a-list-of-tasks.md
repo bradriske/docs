@@ -121,14 +121,14 @@ You can download the complete Windows Presentation Foundation (WPF) project from
 
 5. If you don’t cancel the program, it produces the following output.
 
-    ```text
+    ```output
     Ready to download.
     Length of the downloaded string: 158125.
     ```
 
      If you choose the **Cancel** button before the program finishes downloading the content, the program produces the following output.
 
-    ```text
+    ```output
     Ready to download.
     Download canceled.
     ```
@@ -219,7 +219,7 @@ To extend the example yourself, step by step, follow the instructions in the "Do
 
 5. If you don’t cancel the program, it produces the following output.
 
-    ```text
+    ```output
     Length of the downloaded string: 35939.
 
     Length of the downloaded string: 237682.
@@ -239,7 +239,7 @@ To extend the example yourself, step by step, follow the instructions in the "Do
 
      If you choose the **Cancel** button before the downloads are complete, the output contains the lengths of the downloads that completed before the cancellation.
 
-    ```text
+    ```output
     Length of the downloaded string: 35939.
 
     Length of the downloaded string: 237682.

@@ -110,7 +110,7 @@ dotnet tool install dotnetsay
 
 The command output shows which manifest file the newly installed tool is in, similar to the following example:
 
-```console
+```output
 You can invoke the tool from this directory using the following command:
 dotnet tool run dotnetsay
 Tool 'dotnetsay' (version '2.1.4') was successfully installed.
@@ -148,7 +148,7 @@ dotnet tool restore
 
 The output indicates which tools were restored:
 
-```console
+```output
 Tool 'botsay' (version '1.0.0') was restored. Available commands: botsay
 Tool 'dotnetsay' (version '2.1.3') was restored. Available commands: dotnetsay
 Restore was successful.
@@ -172,7 +172,7 @@ dotnet tool list
 
 The output shows each tool's version and command, similar to the following example:
 
-```console
+```output
 Package Id      Version      Commands       Manifest
 -------------------------------------------------------------------------------------------
 botsay          1.0.0        botsay         /home/name/repository/.config/dotnet-tools.json

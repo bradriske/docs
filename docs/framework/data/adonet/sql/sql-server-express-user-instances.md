@@ -43,7 +43,7 @@ sp_configure 'user instances enabled','0'
   
 - The `|DataDirectory|` substitution string enclosed in the pipe symbols refers to the data directory of the application opening the connection and provides a relative path indicating the location of the .mdf and .ldf database and log files. If you want to locate these files elsewhere, you must provide the full path to the files.  
   
-```text
+```
 Data Source=.\\SQLExpress;Integrated Security=true;  
 User Instance=true;AttachDBFilename=|DataDirectory|\InstanceDB.mdf;  
 Initial Catalog=InstanceDB;  
@@ -57,7 +57,7 @@ Initial Catalog=InstanceDB;
   
  The physical location that `DataDirectory` points to depends on the type of application. In this example, the Northwind.mdf file to be attached is located in the application's \app_data folder.  
   
-```text
+```
 Data Source=.\\SQLExpress;Integrated Security=true;  
 User Instance=true;  
 AttachDBFilename=|DataDirectory|\app_data\Northwind.mdf;  

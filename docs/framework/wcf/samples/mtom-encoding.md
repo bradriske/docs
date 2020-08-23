@@ -36,7 +36,7 @@ This sample demonstrates the use of the Message Transmission Optimization Mechan
   
  The contract chosen for this sample transmits binary data to the service and receives the number of bytes uploaded as the return value. When the service is installed and the client is run, it prints out the number 1000, which indicates that all 1000 bytes were received. The remainder of the output lists optimized and non-optimized message sizes for various payloads.  
   
-```console
+```output
 Output:  
 1000  
   

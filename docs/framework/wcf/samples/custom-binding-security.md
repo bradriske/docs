@@ -56,7 +56,7 @@ Additionally, the custom binding uses message security with Windows credential t
 
 When you run the sample, the operation requests and responses are displayed in the client's console window. Press ENTER in the client window to shut down the client.
 
-```console
+```output
 Press <ENTER> to terminate client.
 Result(100)
 Result(50)

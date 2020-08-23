@@ -17,7 +17,7 @@ You can view changes tracked by a <xref:System.Data.Linq.DataContext> by using <
   
  Output from this code appears similar to the following. Note that the summary at the end shows that eight changes were made.  
 
- ```console
+ ```output
 CustomerID: AROUT
    Original value: London
    Updated value: Paris

@@ -108,7 +108,7 @@ JsonObject json = new JsonObject(reader);
   
  The program produces the following output:  
   
-```console  
+```output  
 Service listening at http://localhost:8000/.  
 To view the JSON output from the sample, navigate to http://localhost:8000/GetMemberProfile  
 This is Paul's page. I am 23 years old and I am 1.7 meters tall.  

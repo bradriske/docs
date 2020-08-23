@@ -239,7 +239,7 @@ Build and run your application.
 
 Your results should be similar to the following. During processing, messages are displayed. You may see warnings, or processing messages. These messages have been removed from the following results for clarity.
 
-```console
+```output
 Number of classes: 2
 Is sentiment/review positive ? Yes
 ```

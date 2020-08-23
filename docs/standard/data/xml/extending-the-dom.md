@@ -228,7 +228,7 @@ book.xml
 
 #### Output
 
-```console
+```output
 Number of elements in book.xml: 3
 ```
 

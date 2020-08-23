@@ -65,7 +65,7 @@ The full schema for the *template.json* file is found at the [JSON Schema Store]
 
 For example, here is a template folder that contains two content files: *console.cs* and *readme.txt*. Take notice that there is the required folder named *.template.config* that contains the *template.json* file.
 
-```text
+```
 └───mytemplate
     │   console.cs
     │   readme.txt
@@ -141,7 +141,7 @@ Here is an example *.csproj* file that follows all of the guidelines above. It p
 
 The example below demonstrates the file and folder structure of using a *.csproj* to create a template pack. The *MyDotnetTemplates.csproj* file and *templates* folder are both located at the root of a directory named *project_folder*. The *templates* folder contains two templates, *mytemplate1* and *mytemplate2*. Each template has content files and a *.template.config* folder with a *template.json* config file.
 
-```text
+```
 project_folder
 │   MyDotnetTemplates.csproj
 │
@@ -198,7 +198,7 @@ dotnet new -u
 
 That command returns something similar to the following output:
 
-```console
+```output
 Template Instantiation Commands for .NET Core CLI
 
 Currently installed items:

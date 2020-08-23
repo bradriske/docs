@@ -249,7 +249,7 @@ IDataView transformedData = textTransformer.Transform(data);
 
 The resulting transform converts the text values in the `Description` column to a numerical vector that looks similar to the output below:
 
-```text
+```
 [ 0.2041241, 0.2041241, 0.2041241, 0.4082483, 0.2041241, 0.2041241, 0.2041241, 0.2041241, 0.2041241, 0.2041241, 0.2041241, 0.2041241, 0.2041241, 0.2041241, 0.2041241, 0.2041241, 0.2041241, 0.2041241, 0.2041241, 0.2041241, 0.2041241, 0, 0, 0, 0, 0.4472136, 0.4472136, 0.4472136, 0.4472136, 0.4472136, 0 ]
 ```
 

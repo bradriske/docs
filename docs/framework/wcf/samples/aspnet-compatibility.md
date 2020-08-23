@@ -107,7 +107,7 @@ public class CalculatorService : ICalculatorSession
 
 When you run the sample, the operation requests and responses are displayed in the client console window. Press ENTER in the client window to shut down the client.
 
-```console
+```output
 0, + 100, - 50, * 17.65, / 2 = 441.25
 Press <ENTER> to terminate client.
 ```

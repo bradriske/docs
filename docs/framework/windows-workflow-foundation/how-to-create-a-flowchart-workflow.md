@@ -113,7 +113,7 @@ Workflows can be constructed from built-in activities as well as from custom act
   
 9. Click the second **FlowDecision** activity to select it. In the **Properties Window**, type the following expression into the **Condition** property value box.  
   
-    ```text
+    ```
     Guess < Target
     ```  
   
@@ -121,7 +121,7 @@ Workflows can be constructed from built-in activities as well as from custom act
   
 11. Click the leftmost **WriteLine** activity to select it, and type the following expression into the **Text** property value box in the **Properties Window**.  
   
-    ```text
+    ```
     "Your guess is too low."  
     ```  
   
@@ -129,7 +129,7 @@ Workflows can be constructed from built-in activities as well as from custom act
   
 13. Click the rightmost **WriteLine** activity to select it, and type the following expression into the **Text** property value box in the **Properties Window**.  
   
-    ```text
+    ```
     "Your guess is too high."  
     ```  
   

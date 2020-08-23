@@ -46,7 +46,7 @@ when (^a or ^b) : (static member ( + ) : ^a * ^b -> ^d) and
 
 The output is as follows.
 
-```console
+```output
 2
 1.500000
 ```

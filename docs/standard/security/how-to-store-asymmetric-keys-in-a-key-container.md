@@ -229,7 +229,7 @@ public class StoreKey
 
 The output is as follows:
 
-```console
+```output
 Key added to container:
 <RSAKeyValue> Key Information A</RSAKeyValue>
 Key retrieved from container :

@@ -32,7 +32,7 @@ A single telemetry entry is also sent by the .NET Core SDK installer when a succ
 
 The .NET Core SDK displays text similar to the following when you first run one of the [.NET Core CLI commands](index.md) (for example, `dotnet build`). Text may vary slightly depending on the version of the SDK you're running. This "first run" experience is how Microsoft notifies you about data collection.
 
-```console
+```output
 Telemetry
 ---------
 The .NET Core tools collect usage data in order to help us improve your experience. The data is anonymous. It is collected by Microsoft and shared with the community. You can opt-out of telemetry by setting the DOTNET_CLI_TELEMETRY_OPTOUT environment variable to '1' or 'true' using your favorite shell.
@@ -109,7 +109,7 @@ If the .NET Core CLI/SDK crashes, it collects the name of the exception and stac
 
 The following example shows the kind of data that is collected:
 
-```console
+```output
 System.IO.IOException
 at System.ConsolePal.WindowsConsoleStream.Write(Byte[] buffer, Int32 offset, Int32 count)
 at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)

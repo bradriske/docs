@@ -144,7 +144,7 @@ The following example contrasts a variable of type `dynamic` to a variable of ty
 
 The <xref:System.Console.WriteLine%2A> statements display the run-time types of `dyn` and `obj`. At that point, both have the same type, integer. The following output is produced:
 
-```console
+```output
 System.Int32
 System.Int32
 ```

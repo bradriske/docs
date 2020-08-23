@@ -24,7 +24,7 @@ Next
   
  This example produces the following output.  
   
-```console  
+```output  
 Name: Address  
 Name: Address  
 Name: DeliveryNotes  

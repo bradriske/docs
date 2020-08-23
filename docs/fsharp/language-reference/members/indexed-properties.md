@@ -47,7 +47,7 @@ The following code example illustrates the definition and use of default and non
 
 ## Output
 
-```console
+```output
 ONE two three four five six seven eight nine ten
 ONE first two second three third four fourth five fifth six 6th
 seven seventh eight eighth nine ninth ten tenth

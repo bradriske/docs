@@ -60,7 +60,7 @@ Both the `Value` property and the `contents` field are assignable values. Theref
 
 The output is as follows.
 
-```console
+```output
 10
 10
 11

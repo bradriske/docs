@@ -12,7 +12,7 @@ A core concept of SQL Server security is that owners of objects have irrevocable
   
  The four-part naming syntax for referring to objects specifies the schema name.  
   
-```text
+```
 Server.Database.DatabaseSchema.DatabaseObject  
 ```  
   

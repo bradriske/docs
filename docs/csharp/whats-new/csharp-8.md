@@ -60,7 +60,7 @@ public readonly override string ToString() =>
 
 The preceding change generates a compiler warning, because `ToString` accesses the `Distance` property, which isn't marked `readonly`:
 
-```console
+```output
 warning CS8656: Call to non-readonly member 'Point.Distance.get' from a 'readonly' member results in an implicit copy of 'this'
 ```
 

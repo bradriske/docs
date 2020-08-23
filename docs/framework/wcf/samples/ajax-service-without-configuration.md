@@ -14,7 +14,7 @@ AJAX support in WCF is optimized for use with ASP.NET AJAX through the `ScriptMa
 
  This sample builds upon the AJAX Service Using HTTP POST. As described in the [Basic AJAX Service](basic-ajax-service.md) sample, <xref:System.ServiceModel.Activation.WebScriptServiceHostFactory> is used to host the service.
 
-```text
+```aspx-csharp
 <%ServiceHost
     language=c#
     Debug="true"

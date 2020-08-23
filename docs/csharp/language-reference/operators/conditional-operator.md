@@ -39,7 +39,7 @@ a ? b : (c ? d : e)
 > [!TIP]
 > You can use the following mnemonic device to remember how the conditional operator is evaluated:
 >
-> ```text
+> ```
 > is this condition true ? yes : no
 > ```
 

@@ -38,7 +38,7 @@ If the tool can't be installed (that is, if it is not available at the default N
 
 If installation is successful, a message is displayed showing the command used to call the tool and the version installed, similar to the following example:
 
-```console
+```output
 You can invoke the tool using the following command: mlnet
 Tool 'mlnet' (version 'X.X.X') was successfully installed.
 ```

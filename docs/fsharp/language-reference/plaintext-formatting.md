@@ -52,7 +52,7 @@ sprintf "Hello %s" (2+2)
 
 gives the output
 
-```console
+```output
   sprintf "Hello %s" (2+2)
   ----------------------^
 
@@ -123,7 +123,7 @@ printfn "%A" (1L, 3n, 5u, 7, 4.03f, 5.000000001, 5.0000000001)
 
 produces
 
-```console
+```output
 (1L, 3n, 5u, 7, 4.03000021f, 5.000000001, 5.0)
 ```
 
@@ -136,7 +136,7 @@ printfn "%A" ("abc", "a\tb\nc\"d")
 
 produces
 
-```console
+```output
 ("abc", "a      b
 c"d")
 ```
@@ -160,7 +160,7 @@ printfn "Culture 2: %A" date
 
 produces
 
-```console
+```output
 Culture 1: 31.12.1999 00:00:00
 Culture 2: 12/31/1999 12:00:00 AM
 ```
@@ -176,7 +176,7 @@ printfn "%A" [| for i in 1 .. 20 -> (i, i*i) |]
 
 produces
 
-```console
+```output
 [|(1, 1); (2, 4); (3, 9); (4, 16); (5, 25); (6, 36); (7, 49); (8, 64); (9, 81);
   (10, 100); (11, 121); (12, 144); (13, 169); (14, 196); (15, 225); (16, 256);
   (17, 289); (18, 324); (19, 361); (20, 400)|]
@@ -194,7 +194,7 @@ printfn "%50A" [| for i in 1 .. 5 -> (i, i*i) |]
 
 produces
 
-```console
+```output
 [|(1, 1);
   (2, 4);
   (3, 9);
@@ -217,7 +217,7 @@ printfn "%0A" [| for i in 1 .. 5 -> "abc\ndef" |]
 
 produces
 
-```console
+```output
 [|(1, 1); (2, 4); (3, 9); (4, 16); (5, 25)|]
 [|"abc
 def"; "abc
@@ -236,7 +236,7 @@ printfn "%A" (seq { for i in 1 .. 10 -> (i, i*i) })
 
 produces
 
-```console
+```output
 seq [(1, 1); (2, 4); (3, 9); (4, 16); ...]
 ```
 
@@ -250,7 +250,7 @@ printfn "%A" { X =  [ 1;2;3 ]; Y = ["one"; "two"; "three"] }
 
 produces
 
-```console
+```output
 { X = [1; 2; 3]
   Y = ["one"; "two"; "three"] }
 ```
@@ -273,7 +273,7 @@ printfn "internal view:\n%+A" data
 
 produces
 
-```console
+```output
 external view:
 R
 
@@ -304,7 +304,7 @@ printfn "%A" (make 1000)
 
 produces a large output with some parts elided:
 
-```console
+```output
 Node(Tip, Node(Tip, ....Node (..., ...)...))
 ```
 
@@ -319,7 +319,7 @@ printfn "%A" r
 
 produces
 
-```console
+```output
 { Links = [...] }
 ```
 
@@ -346,7 +346,7 @@ printfn "%20A" {Clicks=[0..20]}
 
 produces
 
-```console
+```output
 Counts([0; 1; 2; 3;
         4; 5; 6; 7;
         8; 9; 10; 11;
@@ -372,7 +372,7 @@ printfn "%s" ({Clicks=[0..10]}.ToString())
 
 produces
 
-```console
+```output
 { Clicks = [0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10] }
 ```
 
@@ -390,7 +390,7 @@ printfn "Default ToString gives:\n%s" (data.ToString())
 
 produces
 
-```console
+```output
 Default structured print gives this:
 [MyClassType; MyClassType]
 Default ToString gives:
@@ -411,7 +411,7 @@ printfn "Now ToString gives:\n%s" (data.ToString())
 
 produces
 
-```console
+```output
 Now structured print gives this:
 [MyClassType([1; 2; 3; 4; 5]); MyClassType([1; 2; 3; 4; 5])]
 Now ToString gives:

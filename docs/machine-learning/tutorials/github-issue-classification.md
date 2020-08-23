@@ -355,7 +355,7 @@ Display `Area` in order to categorize the issue and act on it accordingly. Creat
 
 Your results should be similar to the following. As the pipeline processes, it displays messages. You may see warnings, or processing messages. These messages have been removed from the following results for clarity.
 
-```console
+```output
 =============== Single Prediction just-trained-model - Result: area-System.Net ===============
 *************************************************************************************************************
 *       Metrics for Multi-class Classification model - Test Data

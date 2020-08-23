@@ -64,7 +64,7 @@ dotnet-counters monitor --process-id 1400180 Sample.EventCounter.Minimal
 
 The following example shows monitor output:
 
-```console
+```output
 Press p to pause, r to resume, q to quit.
     Status: Running
 

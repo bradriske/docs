@@ -70,7 +70,7 @@ End Sub
 
 Run the program several times to verify that the output might show output for all websites, no websites, or some web sites. The following output is a sample:
 
-```console
+```output
 Length of the downloaded string: 35990.
 
 Length of the downloaded string: 407399.

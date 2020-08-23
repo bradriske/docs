@@ -78,7 +78,7 @@ You can enable and disable MDAs by using a registry key, an environment variable
 
 To enable MDAs, add the **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\\.NETFramework\MDA** subkey (type REG_SZ, value 1) in the Windows registry. Copy the following example into a text file named *MDAEnable.reg*. Open the Windows Registry Editor (RegEdit.exe), and from the **File** menu choose **Import**. Select the *MDAEnable.reg* file to enable MDAs on that computer. Setting the subkey to string value of **1** (not DWORD value of **1**) enables the reading of MDA settings from the *ApplicationName.suffix*.mda.config file. For example, the MDA configuration file for Notepad would be named notepad.exe.mda.config.
 
-```text
+```
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework]
@@ -87,7 +87,7 @@ Windows Registry Editor Version 5.00
 
 If the computer is running a 32-bit application on a 64-bit operating system, then the MDA key should be set like the following:
 
-```text
+```
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework]

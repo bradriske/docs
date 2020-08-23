@@ -76,7 +76,7 @@ Console.WriteLine("{0}", intNumbers.StringConcatenate(Function(i) i.ToString(), 
   
  This example produces the following output:  
   
-```console  
+```output  
 onetwothree  
 one:two:three:  
 123  
@@ -212,7 +212,7 @@ End Module
   
  This example produces the following output when applied to the document described in [Creating the Source Office Open XML Document (Visual Basic)](creating-the-source-office-open-xml-document.md).
   
-```console  
+```output  
 StyleName:Heading1 >Parsing WordprocessingML with LINQ to XML<  
 StyleName:Normal ><  
 StyleName:Normal >The following example prints to the console.<  

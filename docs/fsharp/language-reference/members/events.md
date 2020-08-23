@@ -27,7 +27,7 @@ To create an event on a class that acts just like any other .NET Framework event
 
 The output is as follows.
 
-```console
+```output
 Event1 occurred! Object data: Hello World!
 ```
 
@@ -37,7 +37,7 @@ The additional functionality provided by the `Event` module is illustrated here.
 
 The output of the previous code is as follows.
 
-```console
+```output
 Event occurred.
 Given a value: Event occurred.
 ```

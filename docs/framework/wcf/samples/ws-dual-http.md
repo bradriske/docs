@@ -55,7 +55,7 @@ On the client, you must configure an address that the server can use to connect 
 
 When you run the sample, the operation requests and responses are displayed in the client console window. Press ENTER in the client window to shut down the client.
 
-```console
+```output
 Press <ENTER> to terminate client once the output is displayed.
 
 Result(100)

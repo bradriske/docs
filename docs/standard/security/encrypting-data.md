@@ -42,7 +42,7 @@ The following example shows the entire process of creating a stream, encrypting 
 
 The code encrypts the stream using the AES symmetric algorithm, and writes "Hello World!" to the stream. If the code is successful, it creates an encrypted file named *TestData.txt* and displays the following text to the console:  
   
-```console  
+```output  
 The text was encrypted.  
 ```  
 
@@ -50,7 +50,7 @@ You can decrypt the file by using the symmetric decryption example in [Decryptin
 
 However, if an exception is raised, the code displays the following text to the console:  
   
-```console  
+```output  
 The encryption failed.  
 ```
 

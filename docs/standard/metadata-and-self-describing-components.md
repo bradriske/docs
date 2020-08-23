@@ -130,7 +130,7 @@ When the code runs, the runtime loads the module into memory and consults the me
 
 The following example shows part of the MSIL produced from the previous code's `Main` function. You can view the MSIL and metadata from any .NET Framework application using the [MSIL Disassembler (Ildasm.exe)](../framework/tools/ildasm-exe-il-disassembler.md).
 
-```console
+```
 .entrypoint
 .maxstack  3
 .locals ([0] int32 ValueOne,

@@ -27,7 +27,7 @@ This sample contains example data in .csv format, together with methods that tra
   
 4. Press F5 to verify that the project builds and runs correctly. The following output should be displayed in the console window.  
   
-    ```console  
+    ```output  
     Customer count: 50  
     Product count: 77  
     Order count: 190  

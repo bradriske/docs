@@ -50,7 +50,7 @@ Other patterns that are sometimes used in arguments are the `as` pattern, and id
 
 The output is as follows.
 
-```console
+```output
 Data begins at 0 and ends at 4 in string Et tu, Brute?
 Et tu
 ```
@@ -115,7 +115,7 @@ The following example illustrates the use of optional parameters.
 
 The output is as follows.
 
-```console
+```output
 Baud Rate: 9600 Duplex: Full Parity: false
 Baud Rate: 4800 Duplex: Half Parity: false
 Baud Rate: 300 Duplex: Half Parity: true
@@ -201,7 +201,7 @@ The following code illustrates both calling a .NET method that takes a parameter
 
 When run in a project, the output of the previous code is as follows:
 
-```console
+```output
 a 1 10 Hello world 1 True
 "a"
 1

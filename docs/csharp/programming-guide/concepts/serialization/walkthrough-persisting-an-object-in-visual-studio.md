@@ -53,7 +53,7 @@ Add an event handler for the `PropertyChanged` event, and a few lines to modify 
 
 At this point, you can run the code, and see the current output:
 
-```console
+```output
 New customer value: Henry Clay
 7.5
 7.1

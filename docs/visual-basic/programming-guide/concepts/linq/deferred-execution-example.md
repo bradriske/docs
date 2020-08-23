@@ -42,7 +42,7 @@ End Module
 
 This example produces the following output:
 
-```console
+```output
 ToUpper: source abc
 Main: str ABC
 ToUpper: source def

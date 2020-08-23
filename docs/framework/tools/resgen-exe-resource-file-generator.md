@@ -243,7 +243,7 @@ resgen MyApp.exe Win8Resources
   
  For example, the following file named UIResources.rext includes a string resource named `AppTitle` that can take one of three values, depending on whether symbols named `PRODUCTION`, `CONSULT`, or `RETAIL` are defined.  
   
-```text
+```
 #ifdef PRODUCTION  
 AppTitle=My Software Company Project Manager
 #endif  

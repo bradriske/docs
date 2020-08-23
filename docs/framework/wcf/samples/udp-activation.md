@@ -117,7 +117,7 @@ This sample is based on the [Transport: UDP](transport-udp.md) sample. It extend
   
 3. Once the activator is started, you can run the client code by running Client.exe from a command window. The following is the sample output:  
   
-    ```console  
+    ```output  
     Testing Udp Activation.  
     Start the status service.  
     Sending UDP datagrams.  

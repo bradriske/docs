@@ -22,7 +22,7 @@ Next
   
  This code produces the following output:  
   
-```console  
+```output  
 ID="1243"  
 Type="int"  
 ConvertableTo="double"  

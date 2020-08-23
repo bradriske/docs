@@ -16,7 +16,7 @@ This tutorial takes you through an interactive experience building a sample solu
 Open a shell window. Create a directory called *unit-testing-using-mstest* to hold the solution. Inside this new directory, run [`dotnet new sln`](../tools/dotnet-new.md) to create
 a new solution file for the class library and the test project. Next, create a *PrimeService* directory. The following outline shows the directory and file structure thus far:
 
-```console
+```
 /unit-testing-using-mstest
     unit-testing-using-mstest.sln
     /PrimeService
@@ -45,7 +45,7 @@ Change the directory back to the *unit-testing-using-mstest* directory. Run [`do
 
 Next, create the *PrimeService.Tests* directory. The following outline shows the directory structure:
 
-```console
+```
 /unit-testing-using-mstest
     unit-testing-using-mstest.sln
     /PrimeService
@@ -74,7 +74,7 @@ You can see the entire file in the [samples repository](https://github.com/dotne
 
 The following outline shows the final solution layout:
 
-```console
+```
 /unit-testing-using-mstest
     unit-testing-using-mstest.sln
     /PrimeService

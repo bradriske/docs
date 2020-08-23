@@ -107,7 +107,7 @@ For example, consider the following set of block blobs in a container named `pho
 
 When you call `ListBlobs` on a container (as in the above sample), a hierarchical listing is returned. If it contains both `CloudBlobDirectory` and `CloudBlockBlob` objects, representing the directories and blobs in the container, respectively, then the resulting output looks similar to this:
 
-```console
+```output
 Directory: https://<accountname>.blob.core.windows.net/photos/2015/
 Directory: https://<accountname>.blob.core.windows.net/photos/2016/
 Block blob of length 505623: https://<accountname>.blob.core.windows.net/photos/photo1.jpg
@@ -119,7 +119,7 @@ Optionally, you can set the `UseFlatBlobListing` parameter of the `ListBlobs` me
 
 and, depending on the current contents of your container, the results look like this:
 
-```console
+```output
 Block blob of length 4: https://<accountname>.blob.core.windows.net/photos/2015/architecture/description.txt
 Block blob of length 314618: https://<accountname>.blob.core.windows.net/photos/2015/architecture/photo3.jpg
 Block blob of length 522713: https://<accountname>.blob.core.windows.net/photos/2015/architecture/photo4.jpg

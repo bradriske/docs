@@ -114,7 +114,7 @@ This example displays the following output:
 
 Display all the attributes in the collection.
 
-```console
+```output
 genre = novel
 ISBN = 1-861001-57-5
 misc = sale item

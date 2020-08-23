@@ -29,7 +29,7 @@ This tutorial teaches you how to install and use a global tool. You use a tool t
 
    The output shows the command used to call the tool and the version installed:
 
-   ```console
+   ```output
    You can invoke the tool using the following command: botsay
    Tool 'microsoft.botsay' (version '1.0.0') was successfully installed.
    ```
@@ -69,7 +69,7 @@ This tutorial teaches you how to install and use a global tool. You use a tool t
 
    The output shows the command used to call the tool and the version installed:
 
-   ```console
+   ```output
    You can invoke the tool using the following command: botsay
    Tool 'microsoft.botsay' (version '1.0.0') was successfully installed.
    ```

@@ -41,7 +41,7 @@ End Class
   
  This example produces the following output:  
   
-```console  
+```output  
 Lawnmower:1  
 Baby Monitor:2  
 ```  

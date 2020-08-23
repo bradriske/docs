@@ -37,7 +37,7 @@ On the new project dialog, choose "Console App (.NET Core)" and then press **Nex
 
 Visual Studio opens your project. It's already a basic "Hello World!" example. Press `Ctrl` + `F5` to run your project. Visual Studio builds your project, converting the source code into an executable. Then, it launches a command window that runs your new application. You should see the following text in the window:
 
-```console
+```output
 Hello World!
 
 C:\Program Files\dotnet\dotnet.exe (process 11964) exited with code 0.
@@ -63,7 +63,7 @@ On the new project dialog, choose ".NET Core", and "Console App" and then press 
 
 Visual Studio for Mac opens your project. It's already a basic "Hello World!" example. Press `Ctrl` + `Fn` + `F5` to run your project. Visual Studio for Mac builds your project, converting the source code into an executable. Then, it launches a command window that runs your new application. You should see the following text in the window:
 
-```console
+```output
 Hello World!
 
 Press any key to close this window . . .

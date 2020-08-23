@@ -119,7 +119,7 @@ Let's debug an example program that has problems with unloading. Source code is 
 
 This command dumps all objects with a type name containing `LoaderAllocator` that are in the GC heap. Here is an example:
 
-```console
+```output
          Address               MT     Size
 000002b78000ce40 00007ffadc93a288       48
 000002b78000ceb0 00007ffadc93a218       24
@@ -143,7 +143,7 @@ This command dumps the chain of object references that lead to the `LoaderAlloca
 
 Here is an example of the output of the `gcroot` command:
 
-```console
+```output
 Thread 4ac:
     000000cf9499dd20 00007ffa7d0236bc example.Program.Main(System.String[]) [E:\unloadability\example\Program.cs @ 70]
         rbp-20: 000000cf9499dd90
@@ -184,7 +184,7 @@ Another case that can prevent unloading of an `AssemblyLoadContext` is when a th
 
 The command means "apply to all threads the `!clrstack` command". The following is the output of that command for the example. Unfortunately, LLDB on Unix doesn't have any way to apply a command to all threads, so you must manually switch threads and repeat the `clrstack` command. Ignore all threads where the debugger says "Unable to walk the managed stack".
 
-```console
+```output
 OS Thread Id: 0x6ba8 (0)
         Child SP               IP Call Site
 0000001fc697d5c8 00007ffb50d9de12 [HelperMethodFrame: 0000001fc697d5c8] System.Diagnostics.Debugger.BreakInternal()

@@ -275,7 +275,7 @@ The following Windows Presentation Foundation (WPF) project contains the code ex
 
      The following output should appear:
 
-    ```console
+    ```output
     Application can continue working while the Task<T> runs. . . .
 
     Value of result1 variable:   5

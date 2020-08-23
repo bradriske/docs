@@ -63,7 +63,7 @@ object.Value
 
  This code displays the following text:
 
- ```console
+ ```output
  home
  work
 ```

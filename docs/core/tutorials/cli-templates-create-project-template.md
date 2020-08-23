@@ -90,7 +90,7 @@ dotnet run
 
 You get the following output.
 
-```console
+```output
 Hello World with C# 8.0!
 ```
 
@@ -145,7 +145,7 @@ dotnet new -i .\
 
 You get output similar to the following.
 
-```console
+```output
 Usage: new [options]
 
 Options:
@@ -178,7 +178,7 @@ Now that you have an item template installed, test it.
 
     You get the following output.
 
-    ```console
+    ```output
     The template "Example templates: async project" was created successfully.
     ```
 
@@ -190,7 +190,7 @@ Now that you have an item template installed, test it.
 
     You get the following output.
 
-    ```console
+    ```output
     Hello World with C# 8.0!
     ```
 
@@ -206,7 +206,7 @@ dotnet new -u
 
 You get output similar to the following.
 
-```console
+```output
 Template Instantiation Commands for .NET Core CLI
 
 Currently installed items:

@@ -33,7 +33,7 @@ The following code examples illustrate several types of `let` bindings in classe
 
 The output is as follows.
 
-```console
+```output
 10 52 1 204
 ```
 

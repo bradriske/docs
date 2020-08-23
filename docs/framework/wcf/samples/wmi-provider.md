@@ -39,7 +39,7 @@ cscript EnumerateServices.js
   
  The script accesses the instrumentation contained in the service and produces the following output:  
   
-```console  
+```output  
 Microsoft (R) Windows Script Host Version 5.6  
 Copyright © Microsoft Corporation 1996-2001. All rights reserved.  
   
@@ -103,7 +103,7 @@ cscript EnumerateCustomObjects.js
   
  The script accesses the user-defined instrumentation contained in the services and produces the following output:  
   
-```console
+```output
 1 WMIObject(s) found.  
 |-PID:           30285bfd-9d66-4c4e-9be2-310499c5cef5  
 |-InstanceId:    3839  

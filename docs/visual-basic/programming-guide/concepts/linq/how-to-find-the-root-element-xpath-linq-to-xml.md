@@ -34,7 +34,7 @@ Console.WriteLine(el1.Name)
   
  This example produces the following output:  
   
-```console  
+```output  
 Results are identical  
 PurchaseOrders  
 ```  

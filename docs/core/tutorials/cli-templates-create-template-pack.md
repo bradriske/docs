@@ -50,7 +50,7 @@ The `-n` parameter sets the _.csproj_ filename to _templatepack.csproj_. The `-o
 dotnet new console -n templatepack -o .
 ```
 
-```console
+```output
 The template "Console Application" was created successfully.
 
 Processing post-creation actions...
@@ -111,7 +111,7 @@ This command will build your project and create a NuGet package in This should b
 dotnet pack
 ```
 
-```console
+```output
 Microsoft (R) Build Engine version 16.2.0-preview-19278-01+d635043bd for .NET Core
 Copyright (C) Microsoft Corporation. All rights reserved.
 
@@ -151,7 +151,7 @@ No matter how you installed the template pack, either with the _.nupkg_ file dir
 dotnet new -u
 ```
 
-```console
+```output
 Template Instantiation Commands for .NET Core CLI
 
 Currently installed items:

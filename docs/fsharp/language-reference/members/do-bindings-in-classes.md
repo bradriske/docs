@@ -33,7 +33,7 @@ In the following code, a class has a static `do` binding and a non-static `do` b
 
 The output is as follows.
 
-```console
+```output
 Initializing MyType.
 Initializing object 1 2 2 4 8 16
 ```

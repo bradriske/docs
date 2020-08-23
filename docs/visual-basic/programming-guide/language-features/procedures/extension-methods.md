@@ -139,7 +139,7 @@ Therefore, an extension method cannot replace an existing instance method. Howev
 
 The output from this code is as follows:
 
-```console
+```output
 Extension method
 Instance method
 ```

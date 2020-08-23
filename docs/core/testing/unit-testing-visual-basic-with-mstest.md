@@ -18,7 +18,7 @@ Inside this new directory, run [`dotnet new sln`](../tools/dotnet-new.md) to cre
 makes it easier to manage both the class library and the unit test project.
 Inside the solution directory, create a *PrimeService* directory. You have the following directory and file structure thus far:
 
-```console
+```
 /unit-testing-vb-mstest
     unit-testing-vb-mstest.sln
     /PrimeService
@@ -42,7 +42,7 @@ Change the directory back to the *unit-testing-vb-using-mstest* directory. Run [
 
 Next, create the *PrimeService.Tests* directory. The following outline shows the directory structure:
 
-```console
+```
 /unit-testing-vb-mstest
     unit-testing-vb-mstest.sln
     /PrimeService
@@ -71,7 +71,7 @@ You can see the entire file in the [samples repository](https://github.com/dotne
 
 You have the following final solution layout:
 
-```console
+```
 /unit-testing-vb-mstest
     unit-testing-vb-mstest.sln
     /PrimeService

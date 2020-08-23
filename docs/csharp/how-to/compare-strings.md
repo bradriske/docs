@@ -74,7 +74,7 @@ comparisons. The host for the interactive window is a Linux host. The
 linguistic and ordinal comparisons produce the same results. If you
 run this same sample on a Windows host, you see the following output:
 
-```console
+```output
 <coop> is less than <co-op> using invariant culture
 <coop> is greater than <co-op> using ordinal comparison
 <coop> is less than <cop> using invariant culture
@@ -100,7 +100,7 @@ and the "de-DE" culture:
 
 Culture-sensitive comparisons are typically used to compare and sort strings input by users with other strings input by users. The characters and sorting conventions of these strings might vary depending on the locale of the user's computer. Even strings that contain identical characters might sort differently depending on the culture of the current thread. In addition, try this sample code locally on a Windows machine, and you'll get the following results:
 
-```console
+```output
 <coop> is less than <co-op> using en-US culture
 <coop> is greater than <co-op> using ordinal comparison
 <coop> is less than <cop> using en-US culture

@@ -40,7 +40,7 @@ implements the `Name` property on the `ICitizen` interface.
 
 ## Sample output
 
-```console
+```output
 Enter number of employees: 210
 Enter the name of the new employee: Hazem Abolrous
 The employee information:

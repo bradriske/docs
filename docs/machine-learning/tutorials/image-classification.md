@@ -352,7 +352,7 @@ An ML.NET model pipeline is a chain of estimators. Note that no execution happen
 
 1. Run your console app (Ctrl + F5). Your results should be similar to the following output.  You may see warnings or processing messages, but these messages have been removed from the following results for clarity.
 
-    ```console
+    ```output
     =============== Training classification model ===============
     Image: broccoli2.jpg predicted as: food with score: 0.8955513
     Image: pizza3.jpg predicted as: food with score: 0.9667718

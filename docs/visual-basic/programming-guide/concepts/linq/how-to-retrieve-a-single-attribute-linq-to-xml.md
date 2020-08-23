@@ -26,7 +26,7 @@ Next
   
  This code produces the following output:  
   
-```console  
+```output  
 home  
 work  
 ```  
@@ -49,7 +49,7 @@ Next
   
  This code produces the following output:  
   
-```console  
+```output  
 home  
 work  
 ```  
@@ -81,7 +81,7 @@ End Module
   
  This code produces the following output:  
   
-```console  
+```output  
 home  
 work  
 ```  

@@ -52,7 +52,7 @@ Console.WriteLine("Encoding of loaded document is:{0}", newDoc16.Declaration.Enc
 
 This example produces the following output:
 
-```console
+```output
 Creating a document with utf-8 encoding
 Encoding is:utf-8
 

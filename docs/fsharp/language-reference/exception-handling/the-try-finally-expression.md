@@ -28,7 +28,7 @@ The following code demonstrates the use of the `try...finally` expression.
 
 The output to the console is as follows.
 
-```console
+```output
 Closing stream
 Exception handled.
 ```

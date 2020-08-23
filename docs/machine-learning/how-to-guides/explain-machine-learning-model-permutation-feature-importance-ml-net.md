@@ -40,7 +40,7 @@ The features in the dataset being used for this sample are in columns 1-12. The 
 
 A sample of the dataset is shown below:
 
-```text
+```
 1,24,13,1,0.59,3,96,11,23,608,14,13,32
 4,80,18,1,0.37,5,14,7,4,346,19,13,41
 2,98,16,1,0.25,10,5,1,8,689,13,36,12

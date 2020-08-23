@@ -97,7 +97,7 @@ dotnet-counters monitor --process-id 2196 Sample.EventCounter.Minimal Microsoft.
 
 While the `dotnet-counters monitor` command is running, hold <kbd>F5</kbd> on the browser to start issuing continuous requests to the `https://localhost:5001/api/values` endpoint. After a few seconds stop by pressing <kbd>q</kbd>
 
-```console
+```output
 Press p to pause, r to resume, q to quit.
     Status: Running
 

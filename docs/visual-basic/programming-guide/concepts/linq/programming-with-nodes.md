@@ -22,7 +22,7 @@ Console.WriteLine(doc.Root.Parent Is Nothing)
   
  This example produces the following output:  
   
-```console  
+```output  
 True  
 True  
 ```  
@@ -47,7 +47,7 @@ Console.WriteLine(xmlTree.Nodes().OfType(Of XText)().Count())
   
  This example produces the following output:  
   
-```console  
+```output  
 1  
 1  
 2  
@@ -69,7 +69,7 @@ Console.WriteLine(">>{0}<<", textNode2)
   
  This example produces the following output:  
   
-```console  
+```output  
 >><<  
 ```  
   
@@ -111,7 +111,7 @@ Next
   
  This example produces the following output:  
   
-```console  
+```output  
 xmlns="http://www.adventure-works.com"  IsNamespaceDeclaration:True  
 xmlns:fc="www.fourthcoffee.com"  IsNamespaceDeclaration:True  
 AnAttribute="abc"  IsNamespaceDeclaration:False  
@@ -137,7 +137,7 @@ Console.WriteLine(nodes.OfType(Of XText)().Count())
   
  This example produces the following output:  
   
-```console  
+```output  
 3  
 0  
 ```  

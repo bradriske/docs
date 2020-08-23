@@ -128,7 +128,7 @@ InputQueue<RequestContext> requestQueue;
   
  When you run the sample, you should see the following output:  
   
-```console  
+```output  
 Simple binding:  
 AddItem(10000,2): ItemCount=2  
 AddItem(10550,5): ItemCount=7  

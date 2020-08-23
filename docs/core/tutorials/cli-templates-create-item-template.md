@@ -152,7 +152,7 @@ dotnet new console
 
 You get output similar to the following.
 
-```console
+```output
 The template "Console Application" was created successfully.
 
 Processing post-creation actions...
@@ -170,7 +170,7 @@ dotnet run
 
 You get the following output.
 
-```console
+```output
 Hello World!
 ```
 
@@ -182,7 +182,7 @@ dotnet new stringext
 
 You get the following output.
 
-```console
+```output
 The template "Example templates: string extensions" was created successfully.
 ```
 
@@ -200,7 +200,7 @@ dotnet run
 
 You get the following output.
 
-```console
+```output
 !dlroW olleH
 ```
 
@@ -216,7 +216,7 @@ dotnet new -u
 
 You get output similar to the following.
 
-```console
+```output
 Template Instantiation Commands for .NET Core CLI
 
 Currently installed items:

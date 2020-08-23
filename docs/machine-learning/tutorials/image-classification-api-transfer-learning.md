@@ -350,7 +350,7 @@ Run your console app. The output should be similar to that below. You may see wa
 
 No value is printed for the image name because the images are loaded as a `byte[]` therefore there is no image name to display.
 
-```test
+```output
 Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 279
 Phase: Bottleneck Computation, Dataset used:      Train, Image Index: 280
 Phase: Bottleneck Computation, Dataset used: Validation, Image Index:   1
@@ -359,7 +359,7 @@ Phase: Bottleneck Computation, Dataset used: Validation, Image Index:   2
 
 **Training phase**
 
-```text
+```output
 Phase: Training, Dataset used: Validation, Batch Processed Count:   6, Epoch:  21, Accuracy:  0.6797619
 Phase: Training, Dataset used: Validation, Batch Processed Count:   6, Epoch:  22, Accuracy:  0.7642857
 Phase: Training, Dataset used: Validation, Batch Processed Count:   6, Epoch:  23, Accuracy:  0.7916667
@@ -367,7 +367,7 @@ Phase: Training, Dataset used: Validation, Batch Processed Count:   6, Epoch:  2
 
 **Classify images output**
 
-```text
+```output
 Classifying single image
 Image: 7001-220.jpg | Actual Value: UD | Predicted Value: UD
 

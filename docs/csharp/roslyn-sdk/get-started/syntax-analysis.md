@@ -111,7 +111,7 @@ The method declaration node contains all the syntactic information about the met
 
 Run the program to see all the information you've discovered about this program:
 
-```text
+```output
 The tree is a CompilationUnit node.
 The tree has 1 elements in it.
 The tree has 4 using statements. They are:
@@ -189,7 +189,7 @@ Finally, you need to add two lines of code to create the `UsingCollector` and ha
 
 Compile and run the program. You should see the following output:
 
-```console
+```output
         VisitUsingDirective called with System.
         VisitUsingDirective called with System.Collections.Generic.
         VisitUsingDirective called with System.Linq.

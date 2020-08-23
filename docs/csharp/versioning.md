@@ -83,7 +83,7 @@ Take the following example:
 
 **Output**
 
-```console
+```output
 A base method
 A derived method
 ```
@@ -102,7 +102,7 @@ hides it. The base class member needs to have the `virtual` modifier applied to 
 
 **Output**
 
-```console
+```output
 Base Method One: Method One
 Derived Method One: Derived Method One
 ```

@@ -26,7 +26,7 @@ The UDF takes a `string` as an input in the form of a [Column](https://github.co
 
 The following DataFrame `df` contains a list of names:
 
-```text
+```
 +-------+
 |   name|
 +-------+
@@ -44,7 +44,7 @@ DataFrame udfResult = df.Select(udf(df["name"]));
 
 The following DataFrame `udfResult` is the result of the UDF:
 
-```text
+```
 +-------------+
 |         name|
 +-------------+

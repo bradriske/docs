@@ -669,7 +669,7 @@ That's it!
 
 After following the previous steps, run your console app (Ctrl + F5). Your results should be similar to the following output. You may see warnings or processing messages, but these messages have been removed from the following results for clarity.
 
-```console
+```output
 =====Identify the objects in the images=====
 
 .....The objects in the image image1.jpg are detected as below....

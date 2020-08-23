@@ -43,7 +43,7 @@ In this example, a nested class hides a class that has the same name in the base
 
 If you remove the `new` modifier, the program will still compile and run, but you will get the following warning:
 
-```text
+```
 The keyword new is required on 'MyDerivedC.x' because it hides inherited member 'MyBaseC.x'.
 ```
 

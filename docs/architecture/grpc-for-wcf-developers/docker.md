@@ -99,7 +99,7 @@ ENV ASPNETCORE_URLS=https://+:443
 
 Much like `.gitignore` files that exclude certain files and directories from source control, the `.dockerignore` file can be used to exclude files and directories from being copied to the image during build. This not only saves time copying, but can also avoid some errors that arise from having the `obj` directory from your PC copied into the image. At a minimum, you should add entries for `bin` and `obj` to your `.dockerignore` file.
 
-```console
+```
 bin/
 obj/
 ```

@@ -196,7 +196,7 @@ Choose the **F5** key to run the program, and then choose the **Start** button.
 
 Output that resembles the following list should appear:
 
-```text
+```output
 msdn.microsoft.com/library/windows/apps/br211380.aspx        383832
 msdn.microsoft.com                                            33964
 msdn.microsoft.com/library/hh290136.aspx               225793

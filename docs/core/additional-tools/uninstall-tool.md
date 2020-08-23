@@ -505,7 +505,7 @@ Notes:
 
   The content of *versions.rsp* is as follows:
   
-  ```text
+  ```
   2.2.300
   2.1.700
   ```

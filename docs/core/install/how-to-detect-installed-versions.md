@@ -28,7 +28,7 @@ You get output similar to the following.
 
 ::: zone pivot="os-windows"
 
-```console
+```output
 2.1.500 [C:\program files\dotnet\sdk]
 2.1.502 [C:\program files\dotnet\sdk]
 2.1.504 [C:\program files\dotnet\sdk]
@@ -83,7 +83,7 @@ You get output similar to the following.
 
 ::: zone pivot="os-windows"
 
-```console
+```output
 Microsoft.AspNetCore.All 2.1.7 [c:\program files\dotnet\shared\Microsoft.AspNetCore.All]
 Microsoft.AspNetCore.All 2.1.13 [c:\program files\dotnet\shared\Microsoft.AspNetCore.All]
 Microsoft.AspNetCore.All 2.2.0 [c:\program files\dotnet\shared\Microsoft.AspNetCore.All]

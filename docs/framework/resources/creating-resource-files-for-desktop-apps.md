@@ -31,7 +31,7 @@ You can include resources, such as strings, images, or object data, in resources
 
 You can use text (.txt or .restext) files to store string resources only. For non-string resources, use .resx files or create them programmatically. Text files that contain string resources have the following format:
 
-```text
+```
 # This is an optional comment.
 name = value
 
@@ -55,7 +55,7 @@ name2=value2
 
  String resources appear as *name/value* pairs, where *name* is a string that identifies the resource, and *value* is the resource string that is returned when you pass *name* to a resource retrieval method such as <xref:System.Resources.ResourceManager.GetString%2A?displayProperty=nameWithType>. *name* and *value* must be separated by an equal sign (=). For example:
 
-```text
+```
 FileMenuName=File
 EditMenuName=Edit
 ViewMenuName=View
@@ -67,7 +67,7 @@ HelpMenuName=Help
 
  Empty strings (that is, a resource whose value is <xref:System.String.Empty?displayProperty=nameWithType>) are permitted in text files. For example:
 
-```text
+```
 EmptyString=
 ```
 
@@ -79,7 +79,7 @@ EmptyString=
 
  The following example defines two string resources named `OKButton` and `CancelButton`.
 
-```text
+```
 #Define resources for buttons in the user interface.
 OKButton=OK
 CancelButton=Cancel
@@ -95,7 +95,7 @@ CancelButton=Cancel
 
  The following example uses a resource file in text format named GreetingResources.txt for a simple "Hello World" console application. The text file defines two strings, `prompt` and `greeting`, that prompt the user to enter their name and display a greeting.
 
-```text
+```
 # GreetingResources.txt
 # A resource file in text format for a "Hello World" application.
 #

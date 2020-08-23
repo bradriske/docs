@@ -142,7 +142,7 @@ After Transform
   
 - The pseudo code for the function is quite simple:  
   
-```text  
+```  
 The function takes an XElement as an argument and returns an XElement.
 If an element has an XElement annotation, then  
     Return a new XElement  

@@ -60,7 +60,7 @@ The [`Array` module](https://fsharp.github.io/fsharp-core-docs/reference/fsharp-
 
 The output is as follows.
 
-```console
+```output
 0 1 2 3 4 5 6 7 8 9
 ```
 
@@ -72,7 +72,7 @@ Several functions create arrays without requiring an existing array. [`Array.emp
 
 The output is as follows.
 
-```console
+```output
 Length of empty array: 0
 Area of floats set to 5.0: [|5.0; 5.0; 5.0; 5.0; 5.0; 5.0; 5.0; 5.0; 5.0; 5.0|]
 Array of squares: [|0; 1; 4; 9; 16; 25; 36; 49; 64; 81|]
@@ -84,7 +84,7 @@ Array of squares: [|0; 1; 4; 9; 16; 25; 36; 49; 64; 81|]
 
 The output of the preceding code is as follows:
 
-```console
+```output
 [|Test1; Test2; |]
 [|; Test2; |]
 ```
@@ -97,7 +97,7 @@ The string `Test1` appears only in the first array because the operation of crea
 
 The output shows that the subarray starts at element 5 and contains 10 elements.
 
-```console
+```output
 [|5; 6; 7; 8; 9; 10; 11; 12; 13; 14|]
 ```
 
@@ -109,7 +109,7 @@ The following code demonstrates **Array.append**.
 
 The output of the preceding code is as follows.
 
-```console
+```output
 [|1; 2; 3; 4; 5; 6|]
 ```
 
@@ -119,7 +119,7 @@ The output of the preceding code is as follows.
 
 The output of the preceding code is as follows.
 
-```console
+```output
 [|3.0; 15.0; 35.0; 63.0; 99.0|]
 ```
 
@@ -129,7 +129,7 @@ The output of the preceding code is as follows.
 
 The output of the preceding code is as follows.
 
-```console
+```output
 [|0; 1; 0; 1; 2; 3; 4; 5; 0; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10|]
 ```
 
@@ -139,7 +139,7 @@ The output of the preceding code is as follows.
 
 The output of the preceding code is as follows.
 
-```console
+```output
 [|(1, 1, 1); (1, 2, 2); (1, 3, 3); (2, 1, 2); (2, 2, 4); (2, 3, 6); (3, 1, 3);
 (3, 2, 6); (3, 3, 9)|]
 ```
@@ -150,7 +150,7 @@ The output of the preceding code is as follows.
 
 The output of the preceding code is as follows.
 
-```console
+```output
 [|2; 4; 6; 8; 10|]
 ```
 
@@ -160,7 +160,7 @@ The output of the preceding code is as follows.
 
 The output of the preceding code is as follows.
 
-```console
+```output
 "Hello world!"
 ```
 
@@ -170,7 +170,7 @@ You can easily combine functions in the array module that transform arrays by us
 
 The output is
 
-```console
+```output
 [|100; 36; 16; 4|]
 ```
 
@@ -299,7 +299,7 @@ The following code demonstrates the use of `Array.exists` and `Array.exists2`. I
 
 The output of the preceding code is as follows.
 
-```console
+```output
 true
 false
 false
@@ -312,7 +312,7 @@ Similarly, the function [`Array.forall`](https://fsharp.github.io/fsharp-core-do
 
 The output for these examples is as follows.
 
-```console
+```output
 false
 true
 true
@@ -329,7 +329,7 @@ The following code uses `Array.find` and `Array.findIndex` to locate a number th
 
 The output is as follows.
 
-```console
+```output
 The first element that is both a square and a cube is 64 and its index is 62.
 ```
 
@@ -341,7 +341,7 @@ The following code demonstrates the use of `Array.tryFind`. This code depends on
 
 The output is as follows.
 
-```console
+```output
 Found an element: 1
 Found an element: 729
 Failed to find a matching element.
@@ -355,7 +355,7 @@ The following code shows the use of `Array.tryPick`. In this case, instead of a 
 
 The output is as follows.
 
-```console
+```output
 Found an element 1 with square root 1 and cube root 1.
 Found an element 64 with square root 8 and cube root 4.
 Found an element 729 with square root 27 and cube root 9.
@@ -387,7 +387,7 @@ These functions for performing computations correspond to the functions of the s
 
 The output is as follows.
 
-```console
+```output
 [|1; 2; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 0; 23; 24; 25|]
 ```
 

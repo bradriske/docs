@@ -152,7 +152,7 @@ Workflows can be constructed from built-in activities as well as from custom act
   
 23. Type the following expression into the **If** activity’s **Condition** property value box.  
   
-    ```text
+    ```
     Guess < Target
     ```  
   
@@ -160,13 +160,13 @@ Workflows can be constructed from built-in activities as well as from custom act
   
 25. Click the **WriteLine** activity in the **Then** section to select it, and type the following expression into the **Text** property value box.  
   
-    ```text
+    ```
     "Your guess is too low."  
     ```  
   
 26. Click the **WriteLine** activity in the **Else** section to select it, and type the following expression into the **Text** property value box.  
   
-    ```text
+    ```
     "Your guess is too high."  
     ```  
   

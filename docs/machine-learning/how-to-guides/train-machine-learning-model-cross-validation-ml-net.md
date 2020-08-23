@@ -18,7 +18,7 @@ Cross-validation is a training and model evaluation technique that splits the da
 
 Given data from a file that has the following format:
 
-```text
+```
 Size (Sq. ft.), HistoricalPrice1 ($), HistoricalPrice2 ($), HistoricalPrice3 ($), Current Price ($)
 620.00, 148330.32, 140913.81, 136686.39, 146105.37
 550.00, 557033.46, 529181.78, 513306.33, 548677.95

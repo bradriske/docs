@@ -338,7 +338,7 @@ When running the sample, the following output is expected.
 
 Client:
 
-```console
+```output
 Press enter when service is available
 
  > Sent chunk 1 of message 867c1fd1-d39e-4be1-bc7b-32066d7ced10
@@ -365,7 +365,7 @@ Press enter when service is available
 
 Server:
 
-```console
+```output
 Service started, press enter to exit
  < Received chunk 1 of message 867c1fd1-d39e-4be1-bc7b-32066d7ced10
  < Received chunk 2 of message 867c1fd1-d39e-4be1-bc7b-32066d7ced10

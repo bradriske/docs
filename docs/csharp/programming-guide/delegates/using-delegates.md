@@ -30,7 +30,7 @@ You can then pass the delegate created above to that method:
 
 and receive the following output to the console:
 
-```console
+```output
 The number is: 3
 ```
 

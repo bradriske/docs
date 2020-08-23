@@ -47,7 +47,7 @@ In the following example, the `OrdersByCustomer` activity retrieves a list of or
 
 When this workflow is invoked, the following data is written to the console:
 
-```console
+```output
 Calling WCF Data Service...
 8/25/1997
 10/3/1997
@@ -88,7 +88,7 @@ In the following example, the `ListCustomers` activity retrieves a list of custo
 
 When this workflow is invoked, the following data is written to the console. Since this query returns many customers, only part of the output is displayed here.
 
-```console
+```output
 Calling WCF Data Service...
 Alfreds Futterkiste, Contact: Maria Anders
 Ana Trujillo Emparedados y helados, Contact: Ana Trujillo
@@ -106,7 +106,7 @@ OData exposes data as resources that are addressable by URIs. When you use the c
 
 When this code is run, the following output is displayed to the console:
 
-```console
+```output
 Raw data returned:
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <ContactName xmlns="http://schemas.microsoft.com/ado/2007/08/dataservices">Maria Anders</ContactName>
@@ -122,7 +122,7 @@ In a workflow, the code from this example could be incorporated into the <xref:S
 
 When this workflow is invoked, the following output is displayed to the console. Since this query returns several orders, only part of the output is displayed here.
 
-```console
+```output
 Calling WCF Data Service...
 Raw data returned:
 

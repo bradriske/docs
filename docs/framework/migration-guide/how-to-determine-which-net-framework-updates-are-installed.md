@@ -40,7 +40,7 @@ The following example programmatically determines the .NET Framework security up
 
 The example produces an output that's similar to the following one:
 
-```console
+```output
 Microsoft .NET Framework 4 Client Profile
   KB2468871
   KB2468871v2
@@ -79,7 +79,7 @@ ForEach($Version in $DotNetVersions){
 
 The example produces an output that's similar to the following one:
 
-```console
+```output
 Microsoft .NET Framework 4 Client Profile
 KB2468871
 KB2468871v2

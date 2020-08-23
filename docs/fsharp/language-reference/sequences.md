@@ -98,7 +98,7 @@ You can use [Seq.init](https://fsharp.github.io/fsharp-core-docs/reference/fshar
 
 The output is
 
-```console
+```output
 0 10 20 30 40
 ```
 
@@ -120,7 +120,7 @@ You can define infinite sequences by using the [Seq.initInfinite](https://fsharp
 
 The output is as follows:
 
-```console
+```output
 The sequence seq1 contains numbers from 0 to 20.
 
 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
@@ -150,7 +150,7 @@ The following code shows the behavior of and differences between `Seq.truncate` 
 
 The output, before the error occurs, is as follows.
 
-```console
+```output
 1 4 9 16 25
 1 4 9 16 25 36 49 64 81 100
 1 4 9 16 25
@@ -165,7 +165,7 @@ The following code example illustrates the behavior of and differences between `
 
 The output is as follows.
 
-```console
+```output
 1 4 9
 36 49 64 81 100
 16 25 36 49 64 81 100
@@ -187,7 +187,7 @@ The output is as follows.
 
 Initial sequence:
 
-```console
+```output
 1.0 1.5 2.0 1.5 1.0 1.5
 
 Windows of length 3:
@@ -219,7 +219,7 @@ In the previous code, only the first element is computed and examined, and the r
 
 The output is as follows.
 
-```console
+```output
 (1, 34) (2, 33) (0, 33)
 ```
 
@@ -233,7 +233,7 @@ The following code example shows the use of `Seq.groupBy` to partition the seque
 
 The output is as follows.
 
-```console
+```output
 (1, seq [1; 4; 7; 10; ...]) (2, seq [2; 5; 8; 11; ...]) (0, seq [3; 6; 9; 12; ...])
 ```
 

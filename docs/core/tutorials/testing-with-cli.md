@@ -86,7 +86,7 @@ dotnet run
 
 Obtain the following output:
 
-```console
+```output
 Woof!
 Meow!
 ```

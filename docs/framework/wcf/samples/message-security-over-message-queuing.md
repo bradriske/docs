@@ -265,7 +265,7 @@ public class OrderProcessorService : IOrderProcessor
 
  When run, the service code displays the client identification. The following is a sample output from the service code:
 
-```console
+```output
 The service is ready.
 Press <ENTER> to terminate service.
 

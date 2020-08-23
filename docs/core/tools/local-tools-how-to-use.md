@@ -36,7 +36,7 @@ dotnet new tool-manifest
 
 The output indicates successful creation of the file.
 
-```console
+```output
 The template "Dotnet local tool manifest file" was created successfully.
 ```
 
@@ -64,7 +64,7 @@ dotnet tool install --add-source ./microsoft.botsay/nupkg microsoft.botsay
 
 This command adds the tool to the manifest file that you created in the preceding step. The command output shows which manifest file the newly installed tool is in:
 
- ```console
+ ```output
  You can invoke the tool from this directory using the following command:
  'dotnet tool run botsay' or 'dotnet botsay'
  Tool 'microsoft.botsay' (version '1.0.0') was successfully installed.
@@ -137,7 +137,7 @@ You typically install a local tool in the root directory of the repository. Afte
 
    The command produces output like the following example:
 
-   ```console
+   ```output
    Tool 'microsoft.botsay' (version '1.0.0') was restored. Available commands: botsay
    Tool 'dotnetsay' (version '2.1.3') was restored. Available commands: dotnetsay
    Restore was successful.
@@ -151,7 +151,7 @@ You typically install a local tool in the root directory of the repository. Afte
 
    The output is a list of packages and commands, similar to the following example:
 
-   ```console
+   ```output
    Package Id      Version      Commands       Manifest
    --------------------------------------------------------------------------------------------
    microsoft.botsay 1.0.0        botsay         /home/name/repository/.config/dotnet-tools.json
@@ -175,7 +175,7 @@ dotnet tool update dotnetsay
 
 The output indicates the new version number:
 
-```console
+```output
 Tool 'dotnetsay' was successfully updated from version '2.1.3' to version '2.1.4'
 (manifest file /home/name/repository/.config/dotnet-tools.json).
 ```

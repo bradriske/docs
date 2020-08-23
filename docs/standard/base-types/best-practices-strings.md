@@ -339,7 +339,7 @@ The following example illustrates the limited portability that results from usin
 
 However, if you replace the <xref:System.Globalization.CultureInfo.CurrentCulture%2A?displayProperty=nameWithType> property with <xref:System.Globalization.CultureInfo.InvariantCulture%2A?displayProperty=nameWithType> in the calls to <xref:System.DateTime.ToString%28System.String%2CSystem.IFormatProvider%29?displayProperty=nameWithType> and <xref:System.DateTime.Parse%28System.String%2CSystem.IFormatProvider%29?displayProperty=nameWithType>,   the persisted date and time data is successfully restored, as the following output shows:
 
-```console
+```output
 06.05.1758 21:26
 05.05.1818 07:19
 22.04.1870 23:54

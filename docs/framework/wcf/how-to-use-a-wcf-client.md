@@ -151,7 +151,7 @@ Notice the `using` (for Visual C#) or `Imports` (for Visual Basic) statement tha
 
    *GettingStartedHost.exe* produces the following output:
 
-   ```text
+   ```output
    The service is ready.
    Press <Enter> to terminate the service.
 
@@ -167,7 +167,7 @@ Notice the `using` (for Visual C#) or `Imports` (for Visual Basic) statement tha
 
    *GettingStartedClient.exe* produces the following output:
 
-   ```text
+   ```output
    Add(100,15.99) = 115.99
    Subtract(145,76.54) = 68.46
    Multiply(9,81.25) = 731.25

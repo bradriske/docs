@@ -49,7 +49,7 @@ The following example is a small program that illustrates the efficiency of know
 
 This program produces output similar to the following:
 
-```console
+```output
 Generic Sort: System.Collections.Generic.List`1[System.Int32]
  Time taken: 0.0034ms
 Non-Generic Sort: System.Collections.ArrayList

@@ -45,7 +45,7 @@ You can run the code and see results by clicking on **Run** from the top level m
 
 You should now see the following printed to the console window that Visual Studio for Mac popped up:
 
-```console
+```output
 12 squared is 144!
 ```
 

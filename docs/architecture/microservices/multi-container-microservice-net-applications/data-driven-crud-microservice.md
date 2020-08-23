@@ -403,7 +403,7 @@ public class Startup
 
 Once this is done, you can start your application and browse the following Swagger JSON and UI endpoints using URLs like these:
 
-```console
+```http
   http://<your-root-url>/swagger/v1/swagger.json
 
   http://<your-root-url>/swagger/

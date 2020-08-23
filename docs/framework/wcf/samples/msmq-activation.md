@@ -199,7 +199,7 @@ When you run the sample, the client and service activities are displayed in both
 
 The client displays the order status information sent by the server:
 
-```console
+```output
 Press <ENTER> to terminate client.
 Status of order 70cf9d63-3dfa-4e69-81c2-23aa4478ebed :Pending
 ```

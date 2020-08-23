@@ -49,7 +49,7 @@ targetPE /complist:filename [-outdir:path]
   
 1. If you are using a licensed control `MyCompany.Samples.LicControl1` contained in `Samples.DLL` in an application called `HostApp.exe`*,* you can create `HostAppLic.txt` that contains the following.  
   
-    ```text
+    ```
     MyCompany.Samples.LicControl1, Samples.DLL  
     ```  
   
@@ -74,7 +74,7 @@ lc /target:myApp /complist:hostapplic.txt /complist:hostapplic2.txt /complist: h
 ## Response File Example  
  The following listing shows an example of a response file, `response.rsp`. For more information on response files, see [Response Files](/visualstudio/msbuild/msbuild-response-files).  
   
-```text  
+```  
 /target:hostapp.exe  
 /complist:hostapplic.txt
 /i:WFCPrj.dll

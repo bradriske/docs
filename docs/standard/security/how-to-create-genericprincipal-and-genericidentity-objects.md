@@ -133,7 +133,7 @@ public class Class1
 
 When executed, the application displays output similar to the following.
 
-```console
+```output
 The Name is: MyIdentity
 The IsAuthenticated is: True
 Is this a Manager? True

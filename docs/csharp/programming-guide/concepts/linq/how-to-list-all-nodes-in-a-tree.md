@@ -35,7 +35,7 @@ It is not particularly helpful to execute XPath expressions using [!INCLUDE[sqlt
 
  The following is the list of nodes in the above XML tree, expressed as XPath expressions:
 
-```text
+```
 /processing-instruction()
 /Root
 /Root/@AttName

@@ -33,7 +33,7 @@ class MainClass
 
 Compilation produces the following output:
 
-```console
+```output
 Special(200,13): warning CS0168: The variable 'i' is declared but never used
 Special(201,13): warning CS0168: The variable 'j' is declared but never used
 MainClass.cs(9,14): warning CS0168: The variable 'c' is declared but never used

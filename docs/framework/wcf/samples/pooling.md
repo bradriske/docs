@@ -203,7 +203,7 @@ public class ObjectPooledWorkService : IDoWork
   
  When you run the client, it times calling the `WorkService` 5 times. It then times calling the `ObjectPooledWorkService` 5 times. The difference in time is then displayed:  
   
-```console
+```output
 Press <ENTER> to start the client.  
   
 Calling WorkService:  

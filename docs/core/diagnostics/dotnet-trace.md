@@ -170,7 +170,7 @@ To collect traces using `dotnet-trace`:
 
   The preceding command generates output similar to the following:
 
-  ```console
+  ```output
   Press <Enter> to exit...
   Connecting to process: <Full-Path-To-Process-Being-Profiled>/dotnet.exe
   Collecting to file: <Full-Path-To-Trace>/trace.nettrace

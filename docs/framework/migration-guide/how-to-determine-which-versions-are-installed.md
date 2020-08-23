@@ -172,7 +172,7 @@ The .NET Framework CLR installed with .NET Framework is versioned separately. Th
 
   Sample output:
 
-  ```console
+  ```output
   Versions installed on the machine:
   v2.0.50727
   v4.0.30319

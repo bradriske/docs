@@ -51,7 +51,7 @@ dotnet-trace ps
 
 The output should be similar to:
 
-```console
+```output
 4807 DiagnosticScena /home/user/git/samples/core/diagnostics/DiagnosticScenarios/bin/Debug/netcoreapp3.0/DiagnosticScenarios
 ```
 
@@ -63,7 +63,7 @@ dotnet-counters monitor --refresh-interval 1 -p 4807
 
 The live output should be similar to:
 
-```console
+```output
 Press p to pause, r to resume, q to quit.
     Status: Running
 
@@ -91,7 +91,7 @@ Press p to pause, r to resume, q to quit.
 
 Focusing on this line:
 
-```console
+```output
     GC Heap Size (MB)                                  4
 ```
 
@@ -101,7 +101,7 @@ Now, hit the URL `https://localhost:5001/api/diagscenario/memleak/20000`.
 
 Observe that the memory usage has grown to 30 MB.
 
-```console
+```output
     GC Heap Size (MB)                                 30
 ```
 

@@ -134,7 +134,7 @@ dotnet run
 
 Your results should be similar to the following:
 
-```console
+```output
 Compiling model...done.
 Iterating:
 .........|.........|.........|.........|.........| 50

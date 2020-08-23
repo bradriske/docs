@@ -10,7 +10,7 @@ This sample builds a program and an associated unit test assembly. Using this sa
 
 To build and run the sample, change to the *src/NewTypes* directory and execute the following command:
 
-```console
+```dotnetcli
 dotnet run
 ```
 
@@ -18,7 +18,7 @@ dotnet run
 
 To run the tests, change to the *test/NewTypesTests* directory and execute the following two commands:
 
-```console
+```dotnetcli
 dotnet build
 dotnet test
 ```

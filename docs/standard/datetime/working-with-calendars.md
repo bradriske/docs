@@ -242,7 +242,7 @@ If relaxed range checks are undesirable, you can restore strict range checks in 
 
 With strict range checks enabled, the previous example throws an <xref:System.ArgumentOutOfRangeException> and displays the following output:
 
-```console
+```output
 Unhandled Exception: System.ArgumentOutOfRangeException: Valid values are between 1 and 64, inclusive.
 Parameter name: year
    at System.Globalization.GregorianCalendarHelper.GetYearOffset(Int32 year, Int32 era, Boolean throwOnError)
@@ -317,7 +317,7 @@ If this behavior is undesirable in formatting operations, you can restore the pr
 
 With gannen support in formatting operations disabled, the previous example displays the following output:
 
-```console
+```output
 Japanese calendar date: 平成1年8月18日 (Gregorian: Friday, August 18, 1989)
 ```
 

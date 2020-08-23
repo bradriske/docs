@@ -129,7 +129,7 @@ Console.ReadLine();
 
  When you run the sample, the operation requests and responses are displayed in the client console window. Press ENTER in the client window to shut down the client.
 
-```console
+```output
 IsCallerAnonymous returned: True
 Add(100,15.99) = 115.99
 Subtract(145,76.54) = 68.46

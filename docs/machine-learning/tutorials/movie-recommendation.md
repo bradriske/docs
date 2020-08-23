@@ -265,7 +265,7 @@ Add the following as the next line of code in the `Main()` method to call your `
 
 The output so far should look similar to the following text:
 
-```console
+```output
 =============== Training the model ===============
 iter      tr_rmse          obj
    0       1.5403   3.1262e+05
@@ -341,7 +341,7 @@ Add the following as the next line of code in the `Main()` method to call your `
 
 The output of this method should look similar to the following text:
 
-```console
+```output
 =============== Making a prediction ===============
 Movie 10 is recommended for user 6
 ```
@@ -377,7 +377,7 @@ Once you have saved your trained model, you can consume the model in different e
 
 After following the steps above, run your console app (Ctrl + F5). Your results from the single prediction above should be similar to the following. You may see warnings or processing messages, but these messages have been removed from the following results for clarity.
 
-```console
+```output
 =============== Training the model ===============
 iter      tr_rmse          obj
    0       1.5382   3.1213e+05

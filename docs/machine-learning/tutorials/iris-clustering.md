@@ -177,7 +177,7 @@ To find out the cluster to which the specified item belongs to, go back to the *
 
 Run the program to see which cluster contains the specified data instance and squared distances from that instance to the cluster centroids. Your results should be similar to the following:
 
-```text
+```output
 Cluster: 2
 Distances: 11.69127 0.02159119 25.59896
 ```

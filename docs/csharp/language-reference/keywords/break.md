@@ -26,7 +26,7 @@ This example demonstrates the use of `break` in a [switch](./switch.md) statemen
 
 If you entered `4`, the output would be:
 
-```console
+```output
 Enter your selection (1, 2, or 3): 4
 Sorry, invalid selection.
 ```

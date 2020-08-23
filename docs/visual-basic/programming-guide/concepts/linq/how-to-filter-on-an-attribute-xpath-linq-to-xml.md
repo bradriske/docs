@@ -41,7 +41,7 @@ Next
   
  This example produces the following output:  
   
-```console
+```output
 Results are identical  
 <Address Type="Shipping">  
   <Name>Ellen Adams</Name>  

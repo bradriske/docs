@@ -44,7 +44,7 @@ End Module
 ### Comments  
  This example produces the following result:  
   
-```console  
+```output  
 Result set follows:  
 End of result set  
 ```  
@@ -85,7 +85,7 @@ End Module
 ### Comments  
  This example produces the following result:  
   
-```console  
+```output  
 Result set follows:  
 1  
 2  

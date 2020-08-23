@@ -43,13 +43,13 @@ This topic describes how to generate and verify hash codes by using the classes 
   
  If the two hash values match, this code displays the following to the console:  
   
-```console  
+```output  
 The hash codes match.  
 ```  
   
  If they do not match, the code displays the following:  
   
-```console  
+```output  
 The hash codes do not match.  
 ```  
   

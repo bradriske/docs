@@ -74,7 +74,7 @@ Gacutil.exe provides options that support reference counting similar to the refe
 
 Use the **/il** or **/ul** options to install or uninstall a list of assemblies stored in an ANSI text file. The contents of the text file must be formatted correctly. To use a text file to install assemblies, specify the path to each assembly on a separate line in the file. The following example demonstrates the contents of a file containing assemblies to install.
 
-```text
+```
 myAssembly1.dll
 myAssembly2.dll
 myAssembly3.dll
@@ -82,7 +82,7 @@ myAssembly3.dll
 
 To use a text file to uninstall assemblies, specify the fully qualified assembly name for each assembly on a separate line in the file. The following example demonstrates the contents of a file containing assemblies to uninstall.
 
-```text
+```
 myAssembly1,Version=1.1.0.0,Culture=en,PublicKeyToken=874e23ab874e23ab
 myAssembly2,Version=1.1.0.0,Culture=en,PublicKeyToken=874e23ab874e23ab
 myAssembly3,Version=1.1.0.0,Culture=en,PublicKeyToken=874e23ab874e23ab

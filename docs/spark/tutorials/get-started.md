@@ -195,7 +195,7 @@ cd <your-app-output-directory>
 
 Your app processes a file containing lines of text. Create an *input.txt* file in your *mySparkApp* directory, containing the following text:
 
-```text
+```
 Hello World
 This .NET app uses .NET for Apache Spark
 This .NET app counts words with Apache Spark

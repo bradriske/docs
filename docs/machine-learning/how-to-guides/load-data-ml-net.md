@@ -18,7 +18,7 @@ If you're using Model Builder, see [Load training data into Model Builder](load-
 
 ML.NET enables you to define data models via classes. For example, given the following input data:
 
-```text
+```
 Size (Sq. ft.), HistoricalPrice1 ($), HistoricalPrice2 ($), HistoricalPrice3 ($), Current Price ($)
 700, 100000, 3000000, 250000, 500000
 1000, 600000, 400000, 650000, 700000

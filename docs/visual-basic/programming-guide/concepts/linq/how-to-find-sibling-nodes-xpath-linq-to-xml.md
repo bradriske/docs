@@ -40,7 +40,7 @@ Next
 
 This example produces the following output:
 
-```console
+```output
 Results are identical
 <Book id="bk101">
   <Author>Garghentini, Davide</Author>

@@ -113,7 +113,7 @@ sudo systemctl status myapp
 
 If you've configured the service correctly, you'll get the following output:
 
-```text
+```output
 myapp.service - My gRPC Application
  Loaded: loaded (/etc/systemd/system/myapp.service; disabled; vendor preset: enabled)
  Active: inactive (dead)

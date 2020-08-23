@@ -225,7 +225,7 @@ let main argv =
 
 This is the output:
 
-```console
+```output
 Original sequence: 1 3 7 15 31 63 127 255 511 1023
 New sequence:      1 3 7 30 31 63 127 255 511 1023
 ```

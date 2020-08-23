@@ -114,7 +114,7 @@ let newYearsDay1999 =
 
 If you execute the example in F# Interactive, it outputs based on the formatting option set. In this case, it affects the formatting of date and time:
 
-```console
+```output
 type DateAndLabel =
   { Date: DateTime
     Label: string }
@@ -135,7 +135,7 @@ let x = MyList([1..10])
 
 This outputs:
 
-```console
+```output
 val x : MyList = [1; 2; 3; 4; 5; 6; 7; 8; 9; 10]
 ```
 
@@ -153,7 +153,7 @@ let y = "beep"
 
 This outputs:
 
-```console
+```output
 val y : string = ["quack"; "quack"; "quack"]
 ```
 
